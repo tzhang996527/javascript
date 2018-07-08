@@ -49,7 +49,7 @@ function Student(name) {
 Student.prototype.hello = function () {
     alert('Hello, ' + this.name + '!');
 };
-
+ 
 /////////////////////////////////////////////////
 function Student(props) {
     this.name = props.name || '匿名'; // 默认值为'匿名'

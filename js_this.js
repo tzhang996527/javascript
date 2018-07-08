@@ -12,7 +12,7 @@ var xiaoming = {
         return y - this.birth;
     }
 };
-
+ 
 var s = xiaoming.age();
 console.log(xiaoming.age); // function xiaoming.age()
 console.log(s); // 今年调用是25,明年调用就变成26了
